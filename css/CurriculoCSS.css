@@ -47,18 +47,17 @@ body {
 
 .subtitulos {
     border: 4px solid #222222;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-radius: 40px;
     display: inline-block;
     margin-bottom: 0;
     text-decoration: none;
     padding: 3px;
-    background-color: #bb86fc;
+    background-color: #86fcc1;
     color: #222222;
 }
 
 .subtitulos:hover {
-    background-color: #9c27b0;
+    background-color: #2729b0;
     cursor: pointer;
 }
 
