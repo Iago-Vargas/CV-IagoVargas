@@ -1,0 +1,236 @@
+/* CurriculoCSS.css */
+
+body {
+    font-family: "Agency FB", sans-serif;
+    background-color: #f5f5f5;
+    color: #222222;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.titulo {
+
+    color: #222222;
+    border-bottom-right-radius: 20px;
+    width: fit-content;
+    padding: 10px;
+    margin: 0 auto 10px;
+
+}
+
+.estiloDevJunior {
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 20px;
+}
+
+#fotoPerfil {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    border: 3px solid #222222;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.container-curriculo {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    border-radius: 12px;
+}
+
+.subtitulos {
+    border: 4px solid #222222;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: inline-block;
+    margin-bottom: 0;
+    text-decoration: none;
+    padding: 3px;
+    background-color: #bb86fc;
+    color: #222222;
+}
+
+.subtitulos:hover {
+    background-color: #9c27b0;
+    cursor: pointer;
+}
+
+.destaque {
+    color: #0b9700;
+    background-color: #f5f5f5;
+    font-weight: bold;
+    font-family: 'Bell MT';
+    display: inline-block;
+}
+
+.subtituloNomeEmail {
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 15px;
+    color: #222222;
+}
+
+.contatos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+ul, li {
+    font-size: 23px;
+    color: #222222;
+    font-family: "Agency FB", sans-serif;
+}
+
+ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #4a90e2;
+}
+
+table, th, td {
+    border: 2px solid #cccccc;
+    padding: 6px;
+    text-align: left;
+    color: #222222;
+    background-color: #ffffff;
+}
+
+th {
+    color: #9c27b0;
+}
+
+table th:hover,
+table td:hover,
+table tr:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: #f2f2f2;
+}
+
+.botaoEnviar {
+    border-radius: 5px;
+    background-color: #0b9700;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.botaoEnviar:hover {
+    background-color: #085e01;
+}
+
+.botaoVoltarTopo {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #222222;
+    background-color: #bb86fc;
+    color: #222222;
+    font-size: 18px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Bell MT';
+}
+
+.botaoVoltarTopo:hover {
+    background-color: #9c27b0;
+}
+
+.formularioText,
+.formularioSelect {
+    border: 3px solid #cccccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #ffffff;
+    color: #222222;
+}
+
+.formularioSelect {
+    font-weight: bold;
+}
+
+.tirarMarcacaoLista {
+    list-style-type: none;
+    margin-left: -25px;
+    font-size: 30px;
+}
+
+.icons {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+footer {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+    border-top: 2px solid #cccccc;
+}
+
+footer h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #222222;
+}
+
+footer form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer select,
+footer textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "Agency FB", sans-serif;
+    color: #222222;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+footer input[type="radio"],
+footer input[type="checkbox"] {
+    margin-right: 5px;
+    transform: scale(1.2);
+}
+
+footer label {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 16px;
+    color: #222222;
+    font-family: "Agency FB", sans-serif;
+}
+
+footer textarea {
+    resize: vertical;
+}
+
+footer .botaoEnviar {
+    width: auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
